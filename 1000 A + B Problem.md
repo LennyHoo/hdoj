@@ -1,30 +1,42 @@
-## 1000 A + B Problem
+# 1000 A + B Problem
 
-#### **Problem Description**
+### **Problem Description**
 
-​		Calculate *A + B*.
+```
+Calculate A + B.
+```
 
-#### **Input**
+### **Input**
 
-​		Each line will contain two integers *A* and *B*. Process to end of file.
+```
+Each line will contain two integers *A* and *B*. Process to end of file.
+```
 
-#### **Output**
+### **Output**
 
-​		For each case, output *A + B* in one line.
+```
+For each case, output *A + B* in one line.
+```
 
-#### **Sample Input**
+### **Sample Input**
 
-​		1 1
+```
+1 1
+```
 
-#### **Sample Output**
+### **Sample Output**
 
-​		2
+```
+2
+```
 
-#### Notes
+### Notes
 
-​		注意输入输出的格式。
+```
+注意输入输出的格式。
+```
 
-#### Code
+### Code
 
 ```java
 import java.util.Scanner;

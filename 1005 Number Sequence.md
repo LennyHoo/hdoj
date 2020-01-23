@@ -1,22 +1,22 @@
-## 1005 Number Sequence
+# 1005 Number Sequence
 
-#### **Problem Description**
+### **Problem Description**
+```
+A number sequence is defined as follows:
 
-​		A number sequence is defined as follows:
+f(1) = 1, f(2) = 1, f(n) = (A * f(n - 1) + B * f(n - 2)) mod 7.
 
-​		f(1) = 1, f(2) = 1, f(n) = (A * f(n - 1) + B * f(n - 2)) mod 7.
-
-​		Given A, B, and n, you are to calculate the value of f(n).
-
-#### **Input**
-
-​		The input consists of multiple test cases. Each test case contains 3 integers A, B and n on a single line (1 <= A, B <= 1000, 1 <= n <= 100,000,000). Three zeros signal the end of input and this test case is not to be processed.
-
-#### **Output**
-
-​		For each test case, print the value of f(n) on a single line.
-
-#### **Sample Input**
+Given A, B, and n, you are to calculate the value of f(n).
+```
+### **Input**
+```
+The input consists of multiple test cases. Each test case contains 3 integers A, B and n on a single line (1 <= A, B <= 1000, 1 <= n <= 100,000,000). Three zeros signal the end of input and this test case is not to be processed.
+```
+### **Output**
+```
+For each test case, print the value of f(n) on a single line.
+```
+### **Sample Input**
 
 ```
 1 1 3
@@ -24,18 +24,18 @@
 0 0 0
 ```
 
-#### **Sample Output**
+### **Sample Output**
 
 ```
 2
 5
 ```
 
-#### Notes
-
-​		看了 ***Discuss***，有人说**余到万时结果一样**，竟然真的可行。
-
-#### Code
+### Notes
+```
+看了 Discuss，有人说 余到万时结果一样 ，竟然真的可行。
+```
+### Code
 
 ```c++
 #include <iostream>

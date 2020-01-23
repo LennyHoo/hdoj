@@ -1,35 +1,36 @@
-## 1001 Sum Problem
+# 1001 Sum Problem
 
-#### **Problem Description**
+### **Problem Description**
 
-​		Hey, welcome to HDOJ(Hangzhou Dianzi University Online Judge).
-
+```
+Hey, welcome to HDOJ(Hangzhou Dianzi University Online Judge).
 In this problem, your task is to calculate SUM(n) = 1 + 2 + 3 + ... + n.
+```
 
-#### **Input**
+### **Input**
 
-​		The input will consist of a series of integers n, one integer per line.
+```
+The input will consist of a series of integers n, one integer per line.
+```
+### **Output**
+```
+For each case, output SUM(n) in one line, followed by a blank line. You may assume the result will be in the range of 32-bit signed integer.
+```
+### **Sample Input**
+```
+1 
+100
+```
+### **Sample Output**
+```
+1 
 
-#### **Output**
-
-​		For each case, output SUM(n) in one line, followed by a blank line. You may assume the result will be in the range of 32-bit signed integer.
-
-#### **Sample Input**
-
-​		1 
-
-​		100
-
-#### **Sample Output**
-
-​		1 
-
-​		5050
-
-#### Notes
-
-​		水题，但是输入输出格式交待得不清晰很坑。
-
+5050
+```
+### Notes
+```
+水题，但是输入输出格式交待得不清晰很坑。
+```
 #### Code
 
 ```c++
