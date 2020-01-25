@@ -48,7 +48,7 @@ FINISH
 
 ### Code
 
-```
+```c++
 #include "iostream"
 #include "cstdio"
 #include "cstring"
